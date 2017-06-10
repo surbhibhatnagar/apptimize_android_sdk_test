@@ -40,7 +40,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Apptimize.setup(this, "VEmZFQ5cFNghFDRji7XKn4MfDh2cWg");
-        Apptimize.track("variantBRegistration");
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
 
